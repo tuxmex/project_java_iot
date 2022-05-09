@@ -8,6 +8,7 @@ public class Student {
     
 
     public Student() {
+        this(0, "unamed", 0, false);
     }
 
     public boolean isMarried() {
