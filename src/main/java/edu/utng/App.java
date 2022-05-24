@@ -2,8 +2,6 @@ package edu.utng;
 
 import java.util.Scanner;
 
-import javax.security.auth.Subject;
-
 import edu.students.Student;
 
 /**
@@ -19,7 +17,8 @@ public class App
         System.out.println("Teclea tu nombre:");
         String name = s.nextLine();
         System.out.println("Name: "+name);
-
+        s.close();
         Student student = new Student();
+        System.out.println(student.toString());
     }
 }
